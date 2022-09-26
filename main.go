@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	appPath := "/tmp/jeageroeeplatform-backend-datafromdevice"
+	appPath := "."
 	r, err := git.PlainOpen(appPath)
 
 	if err != nil {
